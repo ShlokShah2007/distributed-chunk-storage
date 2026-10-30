@@ -4,12 +4,12 @@
 
 ---
 
-## 👥 Contributors & Core Maintainers
+## 👥 Contributors & Task Assignment
 
-| Contributor | GitHub Profile |
-| :--- | :--- |
-| **Shlok Shah** | [@ShlokShah2007](https://github.com/ShlokShah2007) |
-| **Vasu Lakhani** | [@lakhanivasu97](https://github.com/lakhanivasu97) |
+| Contributor | GitHub Profile | Assigned Tasks |
+| :--- | :--- | :--- |
+| **Shlok Shah** | [@ShlokShah2007](https://github.com/ShlokShah2007) | • System Architecture & Design<br>• Client-Side AES-256-GCM Encryption & SHA-256 Checksums<br>• Master Manifest Generation & Cataloging |
+| **Vasu Lakhani** | [@lakhanivasu97](https://github.com/lakhanivasu97) | • Stream Chunking & File Slicing (10 MB / 16 MB buffers)<br>• Concurrent Network I/O & Failed-Chunk Retry Logic<br>• Parallel Retrieval & Deterministic File Reconstruction |
 
 ---
 
@@ -62,16 +62,15 @@ Workers pull chunks concurrently, validate each digest against the manifest, dec
 
 ---
 
-## 🌿 Branching Strategy
+## 🌿 Branching Strategy & Individual Scope
 
-To maintain a clean collaborative git workflow:
+To maintain an isolated and clean collaborative workflow, specific project components are assigned to individual branches:
 
-| Branch | Purpose |
-| :--- | :--- |
-| `main` | Production-ready, stable codebase |
-| `shlok` | Development branch for [@ShlokShah2007](https://github.com/ShlokShah2007) |
-| `vasu` | Development branch for [@lakhanivasu97](https://github.com/lakhanivasu97) |
-
+| Branch | Contributor | Assigned Scope |
+| :--- | :--- | :--- |
+| `main` | Both | Production-ready, stable codebase |
+| `shlok` | [@ShlokShah2007](https://github.com/ShlokShah2007) | Architecture, AES-256-GCM Encryption & Master Manifest Engine |
+| `vasu` | [@lakhanivasu97](https://github.com/lakhanivasu97) | Stream Chunking, Network I/O & File Reconstruction |
 
 ---
 
