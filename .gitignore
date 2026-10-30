@@ -1,0 +1,18 @@
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Temporary & build outputs
+dist/
+build/
+*.pyc
+__pycache__/
+node_modules/
+*.log
+
+# Sensitive environment variables & encryption keys
+.env
+*.pem
+*.key
+manifest.local.json
+chunks_temp/
