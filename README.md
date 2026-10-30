@@ -6,10 +6,10 @@
 
 ## 👥 Contributors & Core Maintainers
 
-| Contributor | GitHub Profile | Role |
-| :--- | :--- | :--- |
-| **Shlok Shah** | [@ShlokShah2007](https://github.com/ShlokShah2007) | Architecture, Encryption & Manifest Engine |
-| **Vasu Lakhani** | [@lakhanivasu97](https://github.com/lakhanivasu97) | Chunk Streaming, Network I/O & Reconstruction |
+| Contributor | GitHub Profile |
+| :--- | :--- |
+| **Shlok Shah** | [@ShlokShah2007](https://github.com/ShlokShah2007) |
+| **Vasu Lakhani** | [@lakhanivasu97](https://github.com/lakhanivasu97) |
 
 ---
 
@@ -72,26 +72,6 @@ To maintain a clean collaborative git workflow:
 | `shlok` | Development branch for [@ShlokShah2007](https://github.com/ShlokShah2007) |
 | `vasu` | Development branch for [@lakhanivasu97](https://github.com/lakhanivasu97) |
 
-### Working with Branches
-
-1. **Switch to your branch:**
-   ```bash
-   # For Shlok
-   git checkout shlok
-
-   # For Vasu
-   git checkout vasu
-   ```
-
-2. **Commit and push your changes:**
-   ```bash
-   git add .
-   git commit -m "feat: description of work"
-   git push origin <your-branch-name>
-   ```
-
-3. **Merge into main:**
-   Open a Pull Request (PR) on GitHub from your branch to `main`.
 
 ---
 
