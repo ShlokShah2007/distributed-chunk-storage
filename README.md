@@ -62,6 +62,14 @@ Workers pull chunks concurrently, validate each digest against the manifest, dec
 
 ---
 
+## 📊 Project Presentation & Slide Deck
+
+A comprehensive slide deck detailing the architectural intuition, 4-stage pipeline, zero-knowledge encryption, and distributed storage design:
+- 📥 **PowerPoint Presentation:** [docs/Distributed_Chunk_Storage_Presentation.pptx](docs/Distributed_Chunk_Storage_Presentation.pptx)
+- 📖 **Slide Breakdown & Summary:** [docs/PRESENTATION.md](docs/PRESENTATION.md)
+
+---
+
 ## 🌿 Branching Strategy & Individual Scope
 
 To maintain an isolated and clean collaborative workflow, specific project components are assigned to individual branches:
